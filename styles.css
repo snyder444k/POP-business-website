@@ -264,17 +264,13 @@ nav ul li a {
     width: 50px;
     height: 4px;
     margin-top: -36px;
-    margin-bottom: -1.8rem;
+    margin-bottom: -2.2rem;
     background-color: var(--a-color);
     border: none;
     border-radius: 5px;
     transition: all 1s ease;
   }
 
-   .beauty:hover{
-     width: 100px;
-  }
-  
   /**.scope:hover .clip{
     display: block;
   } */
@@ -3493,9 +3489,6 @@ header i {
     transition: all 2s ease;
 }
 
-.buttons :nth-child(1):hover{
-    background-image: linear-gradient(to right, var(--a-color),var(--b-color));
-}
 
 .hero_img {
     width: calc(100% - 40px);
@@ -3686,12 +3679,16 @@ nav ul li a {
     font-family: var(--heading-font--);
   }
 
+
+
+
   .actions span {
     display: flex;
     align-items: center;
     gap: .3rem;
     font-size: clamp(1rem,3vw + .3rem,1.3rem);
   }
+
 
   .clove {
     color: var(--a-color);

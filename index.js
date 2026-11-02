@@ -1,7 +1,7 @@
 const bar = document.getElementById("bar");
 const nav = document.getElementById("nav");
 const closeBar = document.getElementById("bar2");
-const images = ["screeding.jpg", "butter.jpg", "tv consoles.jpg", "walls.jpg", "repairs.jpg"];
+const images = ["screeding.webp", "butter.webp", "tv consoles.webp", "walls.webp", "repairs.webp"];
 const salaza = document.getElementById("salaza");
 const first = document.getElementById("first_selector");
 const second = document.getElementById("second_selector");
