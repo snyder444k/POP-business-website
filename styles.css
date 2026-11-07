@@ -3309,6 +3309,7 @@ nav ul li a {
   .tell_servicer{
     font-size: clamp(1rem,3vw,1.1rem);
     font-weight: 500;
+    font-family: "dm sans";
   }
 
   .tell_servicer span {
@@ -3717,6 +3718,10 @@ nav ul li a {
     width: 100%;
   }
 
+  .show_service button{
+   padding:.6em 1rem;
+  }
+
 
   .servicer{
     font-size:clamp(1.2rem,3.5vw + 1rem, 3.5rem);
@@ -3730,7 +3735,8 @@ nav ul li a {
     }
 
   .tell_servicer{
-    font-size: clamp(1rem,3vw,1.1rem);
+    font-size: 1.1rem;
+    font-family: "dm sans";
     font-weight: 500;
   }
 
@@ -3776,4 +3782,72 @@ nav ul li a {
     border-bottom: none;
   }
 
+  .gallery {
+    width: 100%;
+    padding: 2rem 1rem;
+  }
+
+  .head_gallery{
+ width: 100%;
+display: flex;
+gap: .3rem;
+flex-direction: column;
+  }
+
+  .gallery_intro {
+     font-size: clamp(1.2rem,3.5vw + 1rem,3.5rem);
+     color: #f4072e;
+     font-family: var(--heading-font--);
+     font-weight: 600;
+  }
+
+  .gallery_descr{
+    font-family: "dm sans";
+    font-size: 1.1rem;
+    font-weight: 500;
+  }
+
+  .gal_buttons{
+   display: flex;
+   align-items: center;
+   gap: .8rem;
+   flex-wrap: wrap;
+  /* overflow-x: auto;
+   white-space: nowrap;*/
+  }
+
+  /* 
+  .gal_buttons::-webkit-scrollbar{
+    display: none;
+  }  */
+
+  .gal_buttons button {
+    cursor: pointer;
+    font-size: clamp(1rem,3.5vw,1.3rem);
+    padding: .4em .6em;
+    border-radius: 5px;
+    border: none;
+    font-family: var(--body-font--);
+    border: 1px solid var(--s-color);
+    background-color: var(--w-color--);
+    font-weight: 500;
+    transition: all 1s ease;
+  }
+
+    .gal_buttons button:hover{
+      transform: scale(1.01);
+    }
+
+.gal_imgs{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 1rem;
 }
+
+.gal_imgs img {
+  width: 100%;
+  border-radius: 5px;
+}
+}
+
