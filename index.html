@@ -9,7 +9,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Epilogue:ital,wght@0,100..900;1,100..900&family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
-  <link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
@@ -17,7 +17,7 @@
     <header>
     <div class="header">
      
-      <p class="popit"><i class="fa-solid fa-brush"></i>popit</p>
+      <p class="popit" id="popit"><i class="fa-solid fa-brush"></i>popit</p>
       <nav id="nav">
         <i class="fa-solid fa-circle-xmark" id="bar2"></i>
         <ul>
@@ -105,31 +105,30 @@
     <p class="gallery_intro">Gallery</p>
     <p class="gallery_descr">Find your style.</p>
     <div class="gal_buttons">
-      <button id="all_gal">All</button>
-      <button>Living Room</button>
-      <button>Bedroom</button>
-      <button>Commercials</button>
-      <button>Walls & 3d</button>
+      <button id="all_gal" class="but">All</button>
+      <button id="living" class="but">Living Room</button>
+      <button id="bedey" class="but">Bedroom</button>
+      <button id="commerce" class="but">Tv stations</button>
+      <button id="walley" class="but">Walls & 3d</button>
     </div>
  <div class="gal_imgs">
-  <img src="./1.webp" alt="sitting room">
-  <img src="./2.webp" alt="tv in sitting room">
-  <img src="./3.webp" alt="tv in sitting room">
-  <img src="./4.webp" alt="tv in sitting room">
-  <img src="./5.webp" alt="tv in sitting room">
-  <img src="./6.webp" alt="tv in sitting room">
-  <img src="./7.webp" alt="tv in sitting room">
-  <img src="./8.webp" alt="tv in sitting room">
-  <img src="./9.webp" alt="tv in sitting room">
-  <img src="./10.webp" alt="tv in sitting room">
-  <img src="./11.webp" alt="tv in sitting room">
-  <img src="./12.webp" alt="tv in sitting room">
+  <img src="./1.webp" alt="sitting room" data-id="1" class="mg">
+  <img src="./2.webp" alt="tv in sitting room" data-id="3" class="mg">
+  <img src="./3.webp" alt="tv in sitting room" data-id="4" class="mg">
+  <img src="./4.webp" alt="tv in sitting room" data-id="1" class="mg">
+  <img src="./5.webp" alt="tv in sitting room"data-id="1" class="mg">
+  <img src="./6.webp" alt="tv in sitting room" data-id="3" class="mg">
+  <img src="./7.webp" alt="tv in sitting room" data-id="4" class="mg">
+  <img src="./8.webp" alt="tv in sitting room" data-id="4" class="mg">
+  <img src="./9.webp" alt="tv in sitting room" data-id="2"class="mg">
+  <img src="./10.webp" alt="tv in sitting room"data-id="2" class="mg">
+  <img src="./11.webp" alt="tv in sitting room" data-id="2" class="mg">
+  <img src="./12.webp" alt="tv in sitting room" data-id="3"class="mg">
 
  </div>
   </div>
 </section>
-
-<script src="https://code.jquery.com/jquery-4.0.0.module.js"></script>
+<script src="https://code.jquery.com/jquery-4.0.0.min.js" integrity="sha256-OaVG6prZf4v69dPg6PhVattBXkcOWQB62pdZ3ORyrao=" crossorigin="anonymous"></script>
   <script src="index.js"></script>
 </body>
 
