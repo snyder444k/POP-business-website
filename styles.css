@@ -484,7 +484,7 @@ flex-direction: column;
 
   .gallery_intro {
      font-size: clamp(1.2rem,3.5vw + 1rem,3.5rem);
-     color: var(--a-color);
+     color: var(--b-color);
      font-family: var(--heading-font--);
      font-weight: 600;
   }
@@ -540,7 +540,7 @@ flex-direction: column;
 
 .cta_2{
   align-self: flex-start;
-  padding: .6rem 1.2rem;
+  padding: .7rem 1.2rem;
   border-radius: 5px;
   border: none;
   background-color: var(--a-color);
@@ -556,6 +556,90 @@ flex-direction: column;
   transform: scale(1.01);
 }
 
+
+
+/*** Testimonial section*****/
+
+.testimonials{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 4rem 1rem;
+  background-color: var(--neu-color);
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.testi_intro{
+  font-size: clamp(1.2rem,3.5vw + 1rem,3.5rem);
+  font-weight: 600;
+  font-family: var(--logo-font--);
+  color: var(--b-color);
+  text-align: center;
+}
+
+.testi{
+  font-size: clamp(1.1rem,3vw + .5rem,2.5rem);
+  text-align: center;
+  color: var(--b-color);
+  font-weight: 600;
+ font-family: "epilogue";
+ text-decoration: underline;
+ text-decoration-color: var(--a-color);
+ text-decoration-thickness: .2rem;
+ margin-bottom: .3rem;
+}
+
+.testi_boxes{
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 2rem;
+margin: 0 auto;
+}
+
+.ti_box{
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem;
+  color: var(--b-color);
+  border: 1px solid var(--s-color);
+  border-radius: 8px;
+}
+
+.ti_box .address{
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+}
+
+.station{
+  display: flex;
+  flex-direction: column;
+}
+
+.address img{
+  width: 60px;
+  aspect-ratio: 2/2;
+  border-radius: 50%;
+}
+
+.avatar{
+  font-size: clamp(1rem,3.5vw + .5rem,2rem);
+  font-weight: 600;
+}
+
+.talker {
+  line-height: 1.6;
+  font-family: var(--nav-font--);
+  font-weight: 500;
+  font-size: clamp(1rem,3.5vw,1.3rem);
+}
+
+.nah {
+  font-family: var(--nav-font--);
+}
 
 
  
@@ -980,7 +1064,7 @@ flex-direction: column;
 
   .gallery_intro {
      font-size: clamp(1.2rem,3.5vw + 1rem,3.5rem);
-     color: var(--a-color);
+     color: var(--b-color);
      font-family: var(--heading-font--);
      font-weight: 600;
   }
@@ -1052,6 +1136,87 @@ flex-direction: column;
 }
 
 
+
+/*** Testimonial section*****/
+
+.testimonials{
+  padding: 4rem 1rem;
+  background-color: var(--neu-color);
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.testi_intro{
+  font-size: clamp(1.2rem,3.5vw + 1rem,3.5rem);
+  font-weight: 600;
+  font-family: var(--logo-font--);
+  color: var(--b-color);
+  text-align: center;
+}
+
+.testi{
+  font-size: clamp(1.1rem,3vw + .5rem,2.5rem);
+  text-align: center;
+  color: var(--b-color);
+  font-weight: 600;
+ font-family: "epilogue";
+ text-decoration: underline;
+ text-decoration-color: var(--a-color);
+ text-decoration-thickness: .2rem;
+ margin-bottom: .3rem;
+}
+
+.testi_boxes{
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 2rem;
+margin: 0 auto;
+}
+
+.ti_box{
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem;
+  color: var(--b-color);
+  border: 1px solid var(--s-color);
+  border-radius: 8px;
+}
+
+.ti_box .address{
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+}
+
+.station{
+  display: flex;
+  flex-direction: column;
+}
+
+.address img{
+  width: 60px;
+  aspect-ratio: 2/2;
+  border-radius: 50%;
+}
+
+.avatar{
+  font-size: clamp(1rem,3.5vw + .5rem,2rem);
+  font-weight: 600;
+}
+
+.talker {
+  line-height: 1.6;
+  font-family: var(--nav-font--);
+  font-weight: 500;
+  font-size: clamp(1rem,3.5vw,1.3rem);
+}
+
+.nah {
+  font-family: var(--nav-font--);
+}
 
 }   
 
@@ -1477,7 +1642,7 @@ flex-direction: column;
 
   .gallery_intro {
      font-size: clamp(1.2rem,3.5vw + 1rem,3.5rem);
-     color: var(--a-color);
+     color: var(--b-color);
      font-family: var(--heading-font--);
      font-weight: 600;
   }
@@ -1548,6 +1713,88 @@ flex-direction: column;
   transform: scale(1.01);
 }
 
+
+
+/*** Testimonial section*****/
+
+.testimonials{
+  padding: 4rem 1rem;
+  background-color: var(--neu-color);
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.testi_intro{
+  font-size: clamp(1.2rem,3.5vw + 1rem,3.5rem);
+  font-weight: 600;
+  font-family: var(--logo-font--);
+  color: var(--b-color);
+  text-align: center;
+}
+
+.testi{
+  font-size: clamp(1.1rem,3vw + .5rem,2.5rem);
+  text-align: center;
+  color: var(--b-color);
+  font-weight: 600;
+ font-family: "epilogue";
+ text-decoration: underline;
+ text-decoration-color: var(--a-color);
+ text-decoration-thickness: .2rem;
+ margin-bottom: .3rem;
+}
+
+.testi_boxes{
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 2rem;
+margin: 0 auto;
+}
+
+.ti_box{
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem;
+  color: var(--b-color);
+  border: 1px solid var(--s-color);
+  border-radius: 8px;
+}
+
+.ti_box .address{
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+}
+
+.station{
+  display: flex;
+  flex-direction: column;
+}
+
+.address img{
+  width: 60px;
+  aspect-ratio: 2/2;
+  border-radius: 50%;
+}
+
+.avatar{
+  font-size: clamp(1rem,3.5vw + .5rem,2rem);
+  font-weight: 600;
+}
+
+.talker {
+  line-height: 1.6;
+  font-family: var(--nav-font--);
+  font-weight: 500;
+  font-size: clamp(1rem,3.5vw,1.3rem);
+}
+
+.nah {
+  font-family: var(--nav-font--);
+}
 
 }
 
@@ -1974,7 +2221,7 @@ flex-direction: column;
 
   .gallery_intro {
      font-size: clamp(1.2rem,3.5vw + 1rem,3.5rem);
-     color: var(--a-color);
+     color: var(--b-color);
      font-family: var(--heading-font--);
      font-weight: 600;
   }
@@ -2045,6 +2292,86 @@ flex-direction: column;
   transform: scale(1.01);
 }
 
+
+/*** Testimonial section*****/
+
+.testimonials{
+  padding: 4rem 1rem;
+  background-color: var(--neu-color);
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.testi_intro{
+  font-size: clamp(1.2rem,3.5vw + 1rem,3.5rem);
+  font-weight: 600;
+  font-family: var(--logo-font--);
+  color: var(--b-color);
+  text-align: center;
+}
+
+.testi{
+  font-size: clamp(1.1rem,3vw + .5rem,2.5rem);
+  text-align: center;
+  color: var(--b-color);
+  font-weight: 600;
+ font-family: "epilogue";
+ text-decoration: underline;
+ text-decoration-color: var(--a-color);
+ text-decoration-thickness: .2rem;
+ margin-bottom: .3rem;
+}
+
+.testi_boxes{
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 2rem;
+}
+
+.ti_box{
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem;
+  color: var(--b-color);
+  border: 1px solid var(--s-color);
+  border-radius: 8px;
+}
+
+.ti_box .address{
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+}
+
+.station{
+  display: flex;
+  flex-direction: column;
+}
+
+.address img{
+  width: 60px;
+  aspect-ratio: 2/2;
+  border-radius: 50%;
+}
+
+.avatar{
+  font-size: clamp(1rem,3.5vw + .5rem,2rem);
+  font-weight: 600;
+}
+
+.talker {
+  line-height: 1.6;
+  font-family: var(--nav-font--);
+  font-weight: 500;
+  font-size: clamp(1rem,3.5vw,1.3rem);
+}
+
+.nah {
+  font-family: var(--nav-font--);
+}
  }
 
 
@@ -2478,7 +2805,7 @@ flex-direction: column;
 
   .gallery_intro {
      font-size: clamp(1.2rem,3.5vw + 1rem,3.5rem);
-     color: var(--a-color);
+     color: var(--b-color);
      font-family: var(--heading-font--);
      font-weight: 600;
   }
@@ -2547,6 +2874,88 @@ flex-direction: column;
 
 .cta_2:hover{
   transform: scale(1.01);
+}
+
+
+/*** Testimonial section*****/
+
+.testimonials{
+  padding: 4rem 1rem;
+  background-color: var(--neu-color);
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.testi_intro{
+  font-size: clamp(1.2rem,3.5vw + 1rem,3.5rem);
+  font-weight: 600;
+  font-family: var(--logo-font--);
+  color: var(--b-color);
+  text-align: center;
+}
+
+.testi{
+  font-size: clamp(1.1rem,3vw + .5rem,2.5rem);
+  text-align: center;
+  color: var(--b-color);
+  font-weight: 600;
+ font-family: "epilogue";
+ text-decoration: underline;
+ text-decoration-color: var(--a-color);
+ text-decoration-thickness: .2rem;
+ margin-bottom: .3rem;
+}
+
+.testi_boxes{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+}
+
+.ti_box{
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem;
+  color: var(--b-color);
+  border: 1px solid var(--s-color);
+  border-radius: 8px;
+}
+
+.ti_box .address{
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+}
+
+.station{
+  display: flex;
+  flex-direction: column;
+}
+
+.address img{
+  width: 60px;
+  aspect-ratio: 2/2;
+  border-radius: 50%;
+}
+
+.avatar{
+  font-size: clamp(1rem,3.5vw + .5rem,2rem);
+  font-weight: 600;
+}
+
+.talker {
+  line-height: 1.6;
+  font-family: var(--nav-font--);
+  font-weight: 500;
+  font-size: clamp(1rem,3.5vw,1.3rem);
+}
+
+.nah {
+  font-family: var(--nav-font--);
 }
 }
 
@@ -2981,7 +3390,7 @@ flex-direction: column;
 
   .gallery_intro {
      font-size: clamp(1.2rem,3.5vw + 1rem,3.5rem);
-     color: var(--a-color);
+     color: var(--b-color);
      font-family: var(--heading-font--);
      font-weight: 600;
   }
@@ -3050,6 +3459,88 @@ flex-direction: column;
 
 .cta_2:hover{
   transform: scale(1.01);
+}
+
+
+/*** Testimonial section*****/
+
+.testimonials{
+  padding: 4rem 1rem;
+  background-color: var(--neu-color);
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.testi_intro{
+  font-size: clamp(1.2rem,3.5vw + 1rem,3.5rem);
+  font-weight: 600;
+  font-family: var(--logo-font--);
+  color: var(--b-color);
+  text-align: center;
+}
+
+.testi{
+  font-size: clamp(1.1rem,3vw + .5rem,2.5rem);
+  text-align: center;
+  color: var(--b-color);
+  font-weight: 600;
+ font-family: "epilogue";
+ text-decoration: underline;
+ text-decoration-color: var(--a-color);
+ text-decoration-thickness: .2rem;
+ margin-bottom: .3rem;
+}
+
+.testi_boxes{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+}
+
+.ti_box{
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem;
+  color: var(--b-color);
+  border: 1px solid var(--s-color);
+  border-radius: 8px;
+}
+
+.ti_box .address{
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+}
+
+.station{
+  display: flex;
+  flex-direction: column;
+}
+
+.address img{
+  width: 60px;
+  aspect-ratio: 2/2;
+  border-radius: 50%;
+}
+
+.avatar{
+  font-size: clamp(1rem,3.5vw + .5rem,2rem);
+  font-weight: 600;
+}
+
+.talker {
+  line-height: 1.6;
+  font-family: var(--nav-font--);
+  font-weight: 500;
+  font-size: clamp(1rem,3.5vw,1.3rem);
+}
+
+.nah {
+  font-family: var(--nav-font--);
 }
 
 }
@@ -3479,7 +3970,7 @@ flex-direction: column;
 
   .gallery_intro {
      font-size: clamp(1.2rem,3.5vw + 1rem,3.5rem);
-     color: var(--a-color);
+     color: var(--b-color);
      font-family: var(--heading-font--);
      font-weight: 600;
   }
@@ -3548,6 +4039,88 @@ flex-direction: column;
 
 .cta_2:hover{
   transform: scale(1.01);
+}
+
+
+/*** Testimonial section*****/
+
+.testimonials{
+  padding: 4rem 1rem;
+  background-color: var(--neu-color);
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.testi_intro{
+  font-size: clamp(1.2rem,3.5vw + 1rem,3.5rem);
+  font-weight: 600;
+  font-family: var(--logo-font--);
+  color: var(--b-color);
+  text-align: center;
+}
+
+.testi{
+  font-size: clamp(1.1rem,3vw + .5rem,2.5rem);
+  text-align: center;
+  color: var(--b-color);
+  font-weight: 600;
+ font-family: "epilogue";
+ text-decoration: underline;
+ text-decoration-color: var(--a-color);
+ text-decoration-thickness: .2rem;
+ margin-bottom: .3rem;
+}
+
+.testi_boxes{
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.ti_box{
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem;
+  color: var(--b-color);
+  border: 1px solid var(--s-color);
+  border-radius: 8px;
+}
+
+.ti_box .address{
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+}
+
+.station{
+  display: flex;
+  flex-direction: column;
+}
+
+.address img{
+  width: 60px;
+  aspect-ratio: 2/2;
+  border-radius: 50%;
+}
+
+.avatar{
+  font-size: clamp(1rem,3.5vw + .5rem,2rem);
+  font-weight: 600;
+}
+
+.talker {
+  line-height: 1.6;
+  font-family: var(--nav-font--);
+  font-weight: 500;
+  font-size: clamp(1rem,3.5vw,1.3rem);
+}
+
+.nah {
+  font-family: var(--nav-font--);
 }
 
 }
@@ -3977,7 +4550,7 @@ flex-direction: column;
 
   .gallery_intro {
      font-size: clamp(1.2rem,3.5vw + 1rem,3.5rem);
-     color: var(--a-color);
+     color: var(--b-color);
      font-family: var(--heading-font--);
      font-weight: 600;
   }
@@ -4047,6 +4620,89 @@ flex-direction: column;
 .cta_2:hover{
   transform: scale(1.01);
 }
+
+
+/*** Testimonial section*****/
+
+.testimonials{
+  padding: 4rem 1rem;
+  background-color: var(--neu-color);
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.testi_intro{
+  font-size: clamp(1.2rem,3.5vw + 1rem,3.5rem);
+  font-weight: 600;
+  font-family: var(--logo-font--);
+  color: var(--b-color);
+  text-align: center;
+}
+
+.testi{
+  font-size: clamp(1.1rem,3vw + .5rem,2.5rem);
+  text-align: center;
+  color: var(--b-color);
+  font-weight: 600;
+ font-family: "epilogue";
+ text-decoration: underline;
+ text-decoration-color: var(--a-color);
+ text-decoration-thickness: .2rem;
+ margin-bottom: .3rem;
+}
+
+.testi_boxes{
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.ti_box{
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem;
+  color: var(--b-color);
+  border: 1px solid var(--s-color);
+  border-radius: 8px;
+}
+
+.ti_box .address{
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+}
+
+.station{
+  display: flex;
+  flex-direction: column;
+}
+
+.address img{
+  width: 60px;
+  aspect-ratio: 2/2;
+  border-radius: 50%;
+}
+
+.avatar{
+  font-size: clamp(1rem,3.5vw + .5rem,2rem);
+  font-weight: 600;
+}
+
+.talker {
+  line-height: 1.6;
+  font-family: var(--nav-font--);
+  font-weight: 500;
+  font-size: clamp(1rem,3.5vw,1.3rem);
+}
+
+.nah {
+  font-family: var(--nav-font--);
+}
+
 
 }
 
@@ -4490,7 +5146,7 @@ flex-direction: column;
 
   .gallery_intro {
      font-size: clamp(1.2rem,3.5vw + 1rem,3.5rem);
-     color: var(--a-color);
+     color: var(--b-color);
      font-family: var(--heading-font--);
      font-weight: 600;
   }
@@ -4559,5 +5215,87 @@ flex-direction: column;
 .cta_2:hover{
   transform: scale(1.01);
 }
+
+/*** Testimonial section*****/
+
+.testimonials{
+  padding: 4rem 1rem;
+  background-color: var(--neu-color);
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.testi_intro{
+  font-size: clamp(1.2rem,3.5vw + 1rem,3.5rem);
+  font-weight: 600;
+  font-family: var(--logo-font--);
+  color: var(--b-color);
+  text-align: center;
+}
+
+.testi{
+  font-size: clamp(1.1rem,3vw + .5rem,2.5rem);
+  text-align: center;
+  color: var(--b-color);
+  font-weight: 600;
+ font-family: "epilogue";
+ text-decoration: underline;
+ text-decoration-color: var(--a-color);
+ text-decoration-thickness: .2rem;
+ margin-bottom: .3rem;
+}
+
+.testi_boxes{
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.ti_box{
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem;
+  color: var(--b-color);
+  border: 1px solid var(--s-color);
+  border-radius: 8px;
+}
+
+.ti_box .address{
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+}
+
+.station{
+  display: flex;
+  flex-direction: column;
+}
+
+.address img{
+  width: 60px;
+  aspect-ratio: 2/2;
+  border-radius: 50%;
+}
+
+.avatar{
+  font-size: clamp(1rem,3.5vw + .5rem,2rem);
+  font-weight: 600;
+}
+
+.talker {
+  line-height: 1.6;
+  font-family: var(--nav-font--);
+  font-weight: 500;
+  font-size: clamp(1rem,3.5vw,1.3rem);
+}
+
+.nah {
+  font-family: var(--nav-font--);
+}
+
 }
 
